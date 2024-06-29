@@ -1,0 +1,83 @@
+body{
+   margin: 0px;
+   font-family: "Source Sans 3", sans-serif;
+   font-optical-sizing: auto;
+   font-weight: 300;
+   font-style: normal;
+}
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+header nav li{
+    float:  right;
+}
+header nav a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header nav li a:hover{
+    background-color:  rgba(194, 113, 255, 1);
+}
+.banner{
+    background-image: url("Object.png");
+    background-repeat: no-repeat;
+    background-position:center ;
+    background-attachment: scroll;
+    background-size: cover;
+    color: white;
+}
+.texts{
+ text-align: center;
+}
+.button{
+    background-color: rgba(194, 113, 255, 1);
+    color: white;
+    border-radius: 40px;
+    border: none ;
+    height:50px;
+    width: 180px;
+}
+.profiles{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+.quotes{
+    background-color: rgba(194, 113, 255, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.video{
+    background-color: rgba(255, 255, 255, 1);
+    justify-content: center;
+    display: flex;
+
+}
+.membership{
+    background-color: rgba(7, 22, 41, 1);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: block;
+    gap:30px;
+
+}
+
+ .frequently{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer{
+    background-color: rgba(7, 22, 41, 1);
+    color: white;
+}
