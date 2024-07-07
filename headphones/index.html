@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width initial-scale=1.0">
+     <title>headphones</title>
+     <link rel="stylesheet" href="style.css/style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css" integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+    </head>
+    <body class="works_on_smartphone">
+     <header class="header">
+                <nav>
+                    <a href=""><img src="images/logo.png" class="logo"></a>
+                    <div class="navlink" id="navlink">
+                        <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="">what we do</a></li>
+                        <li><a href="">our results</a></li>
+                        <li><a href="">contact us</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+                </nav>
+                <section>
+                    <div class="heading">
+                        <div>
+                            <h1>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+        
+                            <button class="button" type="button">Call To Action</button>
+        
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.
+                            Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.</p>
+                        </div>
+                    </div>
+                </section>
+     </header>
+     <main>
+        <!---------what we do section--------->
+        <section>
+            <div class="whatwedo">
+                <h2>What we do...</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.
+                <br>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque consequatur exercitationem distinctio sequi dolore.
+                <br>
+                Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.</p>
+
+                <div class="services">
+                    <div>
+                        <img src="images/sound-frecuency.png" alt="">
+                        <h3>Lorem ipsum</h3>
+                        <p>lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+                    </div>
+
+                    <div>
+                        <img src="images/music.png" alt="">
+                        <h3>Lorem ipsum</h3>
+                        <p>lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+                    </div>
+
+                    <div>
+                        <img src="images/video.png" alt="">
+                        <h3>Lorem ipsum</h3>
+                        <p>lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+                    </div>
+
+                    <div>
+                        <img src="images/hearing.png" alt="">
+                        <h3>Lorem ipsum</h3>
+                        <p>lorem ipsum dolor sit amet,consectetur adipiscing elit</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------Our results speak for themselves section-------->
+         <section>
+            <div class="ourresults">
+                <h2>Our results speak for themselves</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.
+                    <br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse doloremque consequatur exercitationem distinctio sequi dolore.
+                    <br>
+                    Esse doloremque consequatur exercitationem distinctio sequi dolore, amet repellat molestiae ducimus deserunt voluptas.</p>
+
+                    <div class="results">
+                        <diV>
+                            <img src="images/dot_1.png" alt="">
+                        </diV>
+
+                        <diV>
+                            <img src="images/dot_1.png" alt="">
+                        </diV>
+
+                        <diV>
+                            <img src="images/dot_1.png" alt="">
+                        </diV>
+
+                        <diV>
+                            <img src="images/dot_1.png" alt="">
+                        </diV>
+
+                    </div>
+            </div>
+         </section>
+         <!--------contact form--------->
+         <section>
+            <div class="contact">
+                <h2>Contact us</h2>
+                <div class="forms">
+                    <forms>
+                        <label>  Name: 
+                           <input type="text" name="name">
+                        </label>
+                        <br>
+                        <label>  Email:
+                            <input type="email" name="email" placeholder="misan@example.com" required>
+                        </label>
+                        <br>
+                        <label for="your message"> your message: 
+                             <textarea  id="your message" name="your message" rows="4" cols="50">leave a message here</textarea>
+                        </label>
+                        <br>
+                        <button class="button" type="button">Call To Action</button>
+                    </forms>
+                </div>
+               
+            </div>
+         </section>
+
+     </main>
+    <footer>
+        <div class="footer">
+            <img src="images/logo.png" class="logo">
+            <div class="footericons">
+                        <a href=""><img src="images/Facebook_White.png"></a>
+                        <a href=""><img src="images/twitter.png"></a>
+                        <a href=""><img src="images/instagram.png"></a>
+            </div>
+        </div>
+        <p class="copyright">&copyMisanToghanro 2024</p>
+    </footer>
+
+    <!-------javascript for menu icons------->
+    <script>
+            var navlink= document.getElementById("navlink")
+            function showmenu(){
+                navlink.style.right ="0"
+            }
+            function hidemenu(){
+                navlink.style.right ="-200px";
+            }
+    </script>
+
+    </body>
+</html>
